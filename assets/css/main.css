@@ -1,0 +1,133 @@
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 100px;
+	box-shadow: 0 3px 10px 4px #BCBCBC;
+
+}
+
+nav.header-links {
+	display: flex;
+	gap: 30px;
+}
+nav.header-links a {
+	color:#666;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef); /* Параметры градиента */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: 0 100%; /* Градиент пока не показываем */
+    border: 1px solid #b7b7b7; /* Параметры рамки */
+    border-radius: 4px; /* Радиус скругления углов */
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 5px 15px; /* Расстояние от */
+    transition: 0.3s; /* Время перехода */
+
+}
+
+nav.header-login a {
+	color:#D33816;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef); /* Параметры градиента */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: 0 100%; /* Градиент пока не показываем */
+    border: 1px solid #FF0000; /* Параметры рамки */
+    border-radius: 4px; /* Радиус скругления углов */
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 5px 15px; /* Расстояние от */
+    transition: 0.3s; /* Время перехода */
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 120px 0px;
+}
+
+form {
+	display: flex;
+    flex-direction: column;
+    margin: auto;
+	
+}
+
+
+.container {
+  	padding: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+	max-width: 500px;
+	width: 100%;
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 12px 12px #BCBCBC;
+	
+
+}
+
+
+input, select
+	{
+		padding: 0.5em 1.5em; /* Поля по вертикали и горизонтали */
+	    background-color: transparent; /* Прозрачный цвет фона */
+	    text-transform: uppercase; /* Все буквы заглавные */
+	    color: #291121; /* Цвет текста */
+	    border: 2px solid #FF0000; /* Параметры рамки */
+	    border-radius: 0.4em; /* Радиус скругления */
+	  
+   }
+
+
+
+div.dop-menu {
+	display: flex;
+    justify-content: flex-start;
+
+}
+
+.btn {
+	padding: 0.5em 1.5em; /* Расстояние от текста до края */
+    background-color: #b7b7b7; /* Цвет фона */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    font-size: 1em; /* Размер шрифта */
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); /* Тень у надписи */
+    margin-right: 1rem; /* Расстояние справа */
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s; /* Время перехода */
+    border-radius: 4px;
+    max-width: 500px;
+    width: 100%;
+   }
+   .btn:hover {
+    background-color: #b7b7b7; /* Цвет фона */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #FF0000; /* Тень в виде рамки */
+   }
+
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 290px;
+	box-shadow: 0 3px 10px 4px #BCBCBC;
+
+}
+
+nav.footer-links {
+    display: flex;
+	gap: 30px;
+}
+
+nav.footer-links a {
+	color:#666;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef); /* Параметры градиента */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: 0 100%; /* Градиент пока не показываем */
+    border: 1px solid #b7b7b7; /* Параметры рамки */
+    border-radius: 4px; /* Радиус скругления углов */
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 5px 15px; /* Расстояние от */
+    transition: 0.3s; /* Время перехода */
+
+}
