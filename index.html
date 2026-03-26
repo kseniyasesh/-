@@ -4,60 +4,73 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<title>Знакомство с классами</title>
-	<title></title>
-	<style type="text/css">
-		header, main, footer, aside, section, main > div {
-			border: 2px solid;
-			padding: 10px;
-			margin: 5px;
-		}
-		main {
-			display: flex;
-		}
-		aside {
-			width: 300px;
-		}
-		main > div {
-			width: 100%;
-		}
-	</style>
+	<title>Форма бронирования отеля</title>
 </head>
 <body>
+
 	<header>
-<img src="assets/img/logo.png" alt="LOGO" height="50">
-	Главная 
-	Новости
-	Контакты
-	Войти / Регистрация
-</header>
-<main>
-	<aside>
-	</aside>
-<div>
-	<ul>
-		<li>ФИО</li>
-		<li>Адрес</li>
-		<li>Город</li>
-		<li>Дополнительные опции</li>
-		<div>
-			<ul>
-				<li>Обед</li>
-				<li>Спальное место</li>
-				<li>Такси</li>
-			</ul>
+		
+		<div class="header-logo">
+			<img src="assets/img/logo.png" alt="LOGO" height="30">
 		</div>
-	</ul>
-</div>
-<aside></aside>
-</main>
-<footer>
-	<img src="assets/img/logo.png" alt="LOGO" height="50">
-	<div>
-				<a href="https://www.google.com/">LINK</a>
-				<a href="https://www.google.com/">LINK</a>
-				<a href="https://www.google.com/">LINK</a>
+
+		
+		<nav class="header-links">
+			<a href="#">Главная</a>
+			<a href="#">Новости</a>
+			<a href="#">Контакты</a>
+		</nav> 
+		
+		<nav class="header-login">
+			<a href="#">Войти / Регистрация</a>
+		</nav>
+
+</header>
+
+<main>
+
+<div class="container">
+		<form>
+			<p>ФИО</p>
+			<input type="name">
+			<p>Адрес</p>
+			<input type="adress">
+			<p>Город</p>
+				<select>
+					  <option>Москва</option>
+					  <option>Санкт-Петербург</option>
+					  <option>Белгород</option>
+					  <option>Курск</option>
+					  <option>Томск</option>
+				</select>
+
+			<p>Дополнительные опции</<p>
+				
+			<div class="dop-menu">
+				<p><input type="checkbox" name="a" value="Обед">Обед</p>
+   				<p><input type="checkbox" name="b" value="Спальное место">Спальное место</p>
+   				<p><input type="checkbox" name="c" value="Такси">Такси</p>
 			</div>
+ 
+ 			  <button class="btn">Отправить</button>
+		
+		</form>	
+</div>
+
+</main>
+
+<footer>
+
+	<div class="footer-logo">
+		<img src="assets/img/logo.png" alt="LOGO" height="30">
+	</div>
+
+	<nav class="footer-links">
+		<a href=" ">LINK</a>
+		<a href=" ">LINK</a>
+		<a href=" ">LINK</a>
+	</nav>
+
 </footer>
 
 </body>
